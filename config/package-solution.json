@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "react-fc-type-client-side-solution",
+    "id": "c2e97043-8c3a-4ef9-82c9-a6f69e10277e",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "React-Fc-Type description"
+      },
+      "longDescription": {
+        "default": "React-Fc-Type description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "react-fc-type Feature",
+        "description": "The feature that activates elements of the react-fc-type solution.",
+        "id": "3e35ebda-6437-4511-8ac9-438af486cb82",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/react-fc-type.sppkg"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "react-fc-type-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/reactFcType/ReactFcTypeWebPart.js",
+          "manifest": "./src/webparts/reactFcType/ReactFcTypeWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ReactFcTypeWebPartStrings": "lib/webparts/reactFcType/loc/{locale}.js"
+  }
+}
